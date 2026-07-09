@@ -1,0 +1,302 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Microsoft.NETCore.Platforms/3.1.0": {},
+      "Microsoft.Win32.Registry/4.7.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "4.7.0",
+          "System.Security.Principal.Windows": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "assemblyVersion": "4.1.3.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "4.1.3.0",
+            "fileVersion": "4.700.19.56404"
+          },
+          "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.1.3.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      },
+      "NLog/4.7.13": {
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.7.13.493"
+          }
+        }
+      },
+      "PinMame/1.0.2": {
+        "dependencies": {
+          "Microsoft.Win32.Registry": "4.7.0",
+          "NLog": "4.7.13",
+          "PinMame.Native": "3.7.0-beta1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/PinMameDotNet.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/android/lib/netstandard2.1/PinMameDotNet.dll": {
+            "rid": "android",
+            "assetType": "runtime",
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          },
+          "runtimes/ios/lib/netstandard2.1/PinMameDotNet.dll": {
+            "rid": "ios",
+            "assetType": "runtime",
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          },
+          "runtimes/linux/lib/netstandard2.1/PinMameDotNet.dll": {
+            "rid": "linux",
+            "assetType": "runtime",
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          },
+          "runtimes/osx/lib/netstandard2.1/PinMameDotNet.dll": {
+            "rid": "osx",
+            "assetType": "runtime",
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "PinMame.Native/3.7.0-beta1": {
+        "dependencies": {
+          "PinMame.Native.android-arm64-v8a": "3.7.0-beta1",
+          "PinMame.Native.ios-arm64": "3.7.0-beta1",
+          "PinMame.Native.linux-x64": "3.7.0-beta1",
+          "PinMame.Native.osx": "3.7.0-beta1",
+          "PinMame.Native.osx-arm64": "3.7.0-beta1",
+          "PinMame.Native.osx-x64": "3.7.0-beta1",
+          "PinMame.Native.win-x64": "3.7.0-beta1",
+          "PinMame.Native.win-x86": "3.7.0-beta1"
+        }
+      },
+      "PinMame.Native.android-arm64-v8a/3.7.0-beta1": {},
+      "PinMame.Native.ios-arm64/3.7.0-beta1": {},
+      "PinMame.Native.linux-x64/3.7.0-beta1": {
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libpinmame.so.3.7.0": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "PinMame.Native.osx/3.7.0-beta1": {
+        "runtimeTargets": {
+          "runtimes/osx/native/libpinmame.3.7.0.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "PinMame.Native.osx-arm64/3.7.0-beta1": {
+        "runtimeTargets": {
+          "runtimes/osx-arm64/native/libpinmame.3.7.0.dylib": {
+            "rid": "osx-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "PinMame.Native.osx-x64/3.7.0-beta1": {
+        "runtimeTargets": {
+          "runtimes/osx-x64/native/libpinmame.3.7.0.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "PinMame.Native.win-x64/3.7.0-beta1": {
+        "runtimeTargets": {
+          "runtimes/win-x64/native/pinmame64.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "3.7.0.1"
+          }
+        }
+      },
+      "PinMame.Native.win-x86/3.7.0-beta1": {
+        "runtimeTargets": {
+          "runtimes/win-x86/native/pinmame.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "3.7.0.1"
+          }
+        }
+      },
+      "System.Security.AccessControl/4.7.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "System.Security.Principal.Windows": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.AccessControl.dll": {
+            "assemblyVersion": "4.1.3.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.1.3.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      },
+      "System.Security.Principal.Windows/4.7.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {
+            "assemblyVersion": "4.1.3.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "4.1.3.0",
+            "fileVersion": "4.700.19.56404"
+          },
+          "runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.1.3.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.NETCore.Platforms/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
+      "path": "microsoft.netcore.platforms/3.1.0",
+      "hashPath": "microsoft.netcore.platforms.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.Registry/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KSrRMb5vNi0CWSGG1++id2ZOs/1QhRqROt+qgbEAdQuGjGrFcl4AOl4/exGPUYz2wUnU42nvJqon1T3U0kPXLA==",
+      "path": "microsoft.win32.registry/4.7.0",
+      "hashPath": "microsoft.win32.registry.4.7.0.nupkg.sha512"
+    },
+    "NLog/4.7.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AvoGpCuq36B+0wY313XA6gC+YeMvk24rqF8P+HS9fInBGOjCzPjpXp2ln9ATZjPOJtXgHfc8zNmTjyswFGLxvg==",
+      "path": "nlog/4.7.13",
+      "hashPath": "nlog.4.7.13.nupkg.sha512"
+    },
+    "PinMame/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sxF20oSGu0lhsKPI+uMUZpo5R+R5THsu0jzjfcsps8+vKOoqzdsTj6NxGUjJnmLQH5qme1aqJ3jKkPac0xIKAw==",
+      "path": "pinmame/1.0.2",
+      "hashPath": "pinmame.1.0.2.nupkg.sha512"
+    },
+    "PinMame.Native/3.7.0-beta1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rlS63YH0h/DvLeAxuYCoEegLzzL0ZOfS4Bce5yZg5B07E90w80sJZ4HTT0nLta3ZoXW8TSy4OLL++n5DDgCPJQ==",
+      "path": "pinmame.native/3.7.0-beta1",
+      "hashPath": "pinmame.native.3.7.0-beta1.nupkg.sha512"
+    },
+    "PinMame.Native.android-arm64-v8a/3.7.0-beta1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+Nt1StkX/ZW9vfDiIw0us/lsNVTJKqxIOqLJkv9nJNOQO8EkRVgoez8FyISdCytQ3b0OylXAQure1JKu3YF2WA==",
+      "path": "pinmame.native.android-arm64-v8a/3.7.0-beta1",
+      "hashPath": "pinmame.native.android-arm64-v8a.3.7.0-beta1.nupkg.sha512"
+    },
+    "PinMame.Native.ios-arm64/3.7.0-beta1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Dwng+sPT2DfmN/EbuWN0YAldvOkacQsuR0kMC6qs096cNeAyRHDw5JhzIDXi6Dye08j7Dk4309JCKxHITcuRHw==",
+      "path": "pinmame.native.ios-arm64/3.7.0-beta1",
+      "hashPath": "pinmame.native.ios-arm64.3.7.0-beta1.nupkg.sha512"
+    },
+    "PinMame.Native.linux-x64/3.7.0-beta1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Y+d4mQjF7WgHgl3P0kjE3os4LmQPjpHCS6+URrIPgRCOfEhkkJG1D2m7u6oy10dwDIEmLUhR4OwI6uikyVatQw==",
+      "path": "pinmame.native.linux-x64/3.7.0-beta1",
+      "hashPath": "pinmame.native.linux-x64.3.7.0-beta1.nupkg.sha512"
+    },
+    "PinMame.Native.osx/3.7.0-beta1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CQdyVVecynGJcRFYkgV9MjDYSoQLFwJSUsB1TiAlh0KUnl/jIN4lq+G91Nk63oZ4FsCW1PgImoTB4y3r/I6Q+w==",
+      "path": "pinmame.native.osx/3.7.0-beta1",
+      "hashPath": "pinmame.native.osx.3.7.0-beta1.nupkg.sha512"
+    },
+    "PinMame.Native.osx-arm64/3.7.0-beta1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sw+54nzJBwfiynTEhgviYtf0cwUj0pnVcVqj4JBjK0M4+2BSGCcx/XsLiCqym/Y0TXKExWSs+KwwaqdGxXlUvQ==",
+      "path": "pinmame.native.osx-arm64/3.7.0-beta1",
+      "hashPath": "pinmame.native.osx-arm64.3.7.0-beta1.nupkg.sha512"
+    },
+    "PinMame.Native.osx-x64/3.7.0-beta1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QUuPHqC4hpA3eLyq5JCFtE9PZkntbzUlrUT6aPc589ZY0wEoiRmqewHtG7sn7Dh/VIDBUOafdDz8vPLiiDwi9w==",
+      "path": "pinmame.native.osx-x64/3.7.0-beta1",
+      "hashPath": "pinmame.native.osx-x64.3.7.0-beta1.nupkg.sha512"
+    },
+    "PinMame.Native.win-x64/3.7.0-beta1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ocFWgEBW6MHPCBwvM9zpQwV3zI6sKcnk5oZ6ZDi4AwhbxQ17an4tpinSN494x1QqJW/m5q9dXRAmNS31DWaoWw==",
+      "path": "pinmame.native.win-x64/3.7.0-beta1",
+      "hashPath": "pinmame.native.win-x64.3.7.0-beta1.nupkg.sha512"
+    },
+    "PinMame.Native.win-x86/3.7.0-beta1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KIy+WT8N3AxGJ5vhH0UrTe+fYSLZ5e/t4B+gfcsWjgsfLZ/4k4ofrFfWr8kmXiOGD5eBiX6lkWTX8jzYjD5IbQ==",
+      "path": "pinmame.native.win-x86/3.7.0-beta1",
+      "hashPath": "pinmame.native.win-x86.3.7.0-beta1.nupkg.sha512"
+    },
+    "System.Security.AccessControl/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JECvTt5aFF3WT3gHpfofL2MNNP6v84sxtXxpqhLBCcDRzqsPBmHhQ6shv4DwwN2tRlzsUxtb3G9M3763rbXKDg==",
+      "path": "system.security.accesscontrol/4.7.0",
+      "hashPath": "system.security.accesscontrol.4.7.0.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ojD0PX0XhneCsUbAZVKdb7h/70vyYMDYs85lwEI+LngEONe/17A0cFaRFqZU+sOEidcVswYWikYOQ9PPfjlbtQ==",
+      "path": "system.security.principal.windows/4.7.0",
+      "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
+    }
+  }
+}

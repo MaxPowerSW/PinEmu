@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "jQWwvf/c+oY=",
+  "success": true,
+  "projectFilePath": "Z:\\Dev\\PinEmu\\PinEmu\\PinEmu.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\B.Rad\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\B.Rad\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\B.Rad\\.nuget\\packages\\nlog\\4.7.13\\nlog.4.7.13.nupkg.sha512",
+    "C:\\Users\\B.Rad\\.nuget\\packages\\pinmame\\1.0.2\\pinmame.1.0.2.nupkg.sha512",
+    "C:\\Users\\B.Rad\\.nuget\\packages\\pinmame.native\\3.7.0-beta1\\pinmame.native.3.7.0-beta1.nupkg.sha512",
+    "C:\\Users\\B.Rad\\.nuget\\packages\\pinmame.native.android-arm64-v8a\\3.7.0-beta1\\pinmame.native.android-arm64-v8a.3.7.0-beta1.nupkg.sha512",
+    "C:\\Users\\B.Rad\\.nuget\\packages\\pinmame.native.ios-arm64\\3.7.0-beta1\\pinmame.native.ios-arm64.3.7.0-beta1.nupkg.sha512",
+    "C:\\Users\\B.Rad\\.nuget\\packages\\pinmame.native.linux-x64\\3.7.0-beta1\\pinmame.native.linux-x64.3.7.0-beta1.nupkg.sha512",
+    "C:\\Users\\B.Rad\\.nuget\\packages\\pinmame.native.osx\\3.7.0-beta1\\pinmame.native.osx.3.7.0-beta1.nupkg.sha512",
+    "C:\\Users\\B.Rad\\.nuget\\packages\\pinmame.native.osx-arm64\\3.7.0-beta1\\pinmame.native.osx-arm64.3.7.0-beta1.nupkg.sha512",
+    "C:\\Users\\B.Rad\\.nuget\\packages\\pinmame.native.osx-x64\\3.7.0-beta1\\pinmame.native.osx-x64.3.7.0-beta1.nupkg.sha512",
+    "C:\\Users\\B.Rad\\.nuget\\packages\\pinmame.native.win-x64\\3.7.0-beta1\\pinmame.native.win-x64.3.7.0-beta1.nupkg.sha512",
+    "C:\\Users\\B.Rad\\.nuget\\packages\\pinmame.native.win-x86\\3.7.0-beta1\\pinmame.native.win-x86.3.7.0-beta1.nupkg.sha512",
+    "C:\\Users\\B.Rad\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\B.Rad\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

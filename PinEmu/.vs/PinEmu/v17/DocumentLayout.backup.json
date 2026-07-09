@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Z:\\Dev\\PinEmu\\PinEmu\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8E72AC44-C8BE-4C0F-9709-3140FD6CC7BC}|PinEmu.csproj|z:\\dev\\pinemu\\pinemu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E72AC44-C8BE-4C0F-9709-3140FD6CC7BC}|PinEmu.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E72AC44-C8BE-4C0F-9709-3140FD6CC7BC}|PinEmu.csproj|Z:\\Dev\\PinEmu\\PinEmu\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8E72AC44-C8BE-4C0F-9709-3140FD6CC7BC}|PinEmu.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E72AC44-C8BE-4C0F-9709-3140FD6CC7BC}|PinEmu.csproj|z:\\dev\\pinemu\\pinemu\\pinemu.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{8E72AC44-C8BE-4C0F-9709-3140FD6CC7BC}|PinEmu.csproj|solutionrelative:pinemu.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PinEmu",
+              "DocumentMoniker": "Z:\\Dev\\PinEmu\\PinEmu\\PinEmu.csproj",
+              "RelativeDocumentMoniker": "PinEmu.csproj",
+              "ToolTip": "Z:\\Dev\\PinEmu\\PinEmu\\PinEmu.csproj",
+              "RelativeToolTip": "PinEmu.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-01T00:33:27.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "Z:\\Dev\\PinEmu\\PinEmu\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "Z:\\Dev\\PinEmu\\PinEmu\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAqwDsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T23:50:16.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "Z:\\Dev\\PinEmu\\PinEmu\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "Z:\\Dev\\PinEmu\\PinEmu\\Form1.cs [Design]*",
+              "RelativeToolTip": "Form1.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T23:47:42.472Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
